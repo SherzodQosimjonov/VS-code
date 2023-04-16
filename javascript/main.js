@@ -1,9 +1,9 @@
 // console.log("SherzodQosimjonov");
-const userNomi = "SherzodQosimjonov"; 
+// const userNomi = "SherzodQosimjonov"; 
 //const o'zgarmas kalit so'z
-let usernomi = "Sherzod"; 
+// let usernomi = "Sherzod"; 
 // let o'zgaradigan kalit so'z
-console.log(userNomi);
+// console.log(userNomi);
 // userNomi = "Samandar";
 // console.log(userNomi);
 
@@ -31,8 +31,8 @@ console.log(userNomi);
 
 //  Comparison operators
 
-let son1 = 24;
-let son2 = "24";
+// let son1 = 24;
+// let son2 = "24";
 
 // console.log(son1 > son2); // true
 // console.log(son1 < son2); // false
@@ -46,5 +46,31 @@ let son2 = "24";
 // != shunchaki teng emasmi degan buyruq
 // console.log(son1 !== son2); // true
 // !== teng emasmi degan buyruq lekin bu o'zgaruvchini turigaham qaraydi
+
+// Assignment operators
+
+// let son3 = 45;
+// let son4 = 15;
+
+// son4 = son3 + son4; // 60
+// (son4 = son3 + son4;) = (son4 += son4;)
+
+// console.log(son4)
+
+
+//  22-dars
+
+function sum(param1, param2, param3) {
+  // console.log("Ishladi")
+  // console.log(param1 + param2 + param3);
+
+  //  void - qiymat qaytarmaydigan funksiya
+  return param1 + param2 + param3;
+}
+
+
+console.log(sum(10, 20, 30));
+console.log(sum(5173613682, 827382647, 2638264826));
+
 
 
